@@ -21,10 +21,11 @@ public class M : MonoBehaviour
     [SerializeField] private float rotationSpeed;
 
     private CharacterController characterController;
-
+    private Animator animator;
     private void Start()
     {
         characterController = GetComponent<CharacterController>();
+        animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -82,21 +83,25 @@ public class M : MonoBehaviour
 
     private void Idle()
     {
-
+        animator.SetTrigger("idle");
     }
 
     private void Walk()
     {
+        animator.ResetTrigger("idle");
+        animator.SetTrigger("walk");
         moveSpeed = walkSpeed;
     }
 
     private void Run()
     {
+        animator.SetTrigger("run");
         moveSpeed = runSpeed;
     }
 
     private void Jump()
     {
+        animator.SetTrigger("jump");
         velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
     }
 }
