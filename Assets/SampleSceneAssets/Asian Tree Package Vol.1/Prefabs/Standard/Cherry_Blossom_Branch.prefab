@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4989591296213843975}
   - component: {fileID: 3840510058286832679}
   - component: {fileID: 8006286678070202171}
+  - component: {fileID: 1399986272330891723}
   m_Layer: 0
   m_Name: Cherry_Blossom_Branch
   m_TagString: Untagged
@@ -4883,6 +4884,33 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!205 &1399986272330891723
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4575100102093234425}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0, z: 0}
+  m_Size: 1
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4989591296213843975}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4989591296213843975}
+  - screenRelativeHeight: 0.1
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4989591296213843975}
+  m_Enabled: 1
 --- !u!1001 &1008482777675364757
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4951,10 +4979,90 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b9cd35ba59161964f952d52730578fec, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6913752467074414241}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b9cd35ba59161964f952d52730578fec, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1294315323214800240}
     - targetCorrespondingSourceObject: {fileID: 375517915199365746, guid: b9cd35ba59161964f952d52730578fec, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5168633950819611961}
   m_SourcePrefab: {fileID: 100100000, guid: b9cd35ba59161964f952d52730578fec, type: 3}
+--- !u!1 &89984512007423172 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b9cd35ba59161964f952d52730578fec, type: 3}
+  m_PrefabInstance: {fileID: 1008482777675364757}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &6913752467074414241
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89984512007423172}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!205 &1294315323214800240
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89984512007423172}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0, z: 0}
+  m_Size: 1
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 6913752467074414241}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 6913752467074414241}
+  - screenRelativeHeight: 0.1
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 6913752467074414241}
+  m_Enabled: 1
 --- !u!1 &632969275622071271 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 375517915199365746, guid: b9cd35ba59161964f952d52730578fec, type: 3}
